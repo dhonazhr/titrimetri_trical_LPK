@@ -11,9 +11,10 @@ if add_selectbox == "Beranda":
     st.header('''
     :violet[Selamat Datang di Web trical 😊]''', divider="rainbow")
     st.image("logo1.png")
-    st.subheader("trical adalah singkatan dari titrimetri calculation yang dimana berisi website perhitungan tentang Normalitas, %(b/b), dan %(b/v) yang dibuat untuk membantu dan mempersingkat waktu dalam menghitung pada bidang titrimetri", 
-             "yang dimana kami berharap website yang kami buat dapat berguna bagi pemakai. Web ini juga memudahkan anda dalam perhitungan pada mata kuliah Analisis Titrimetri Lhoooo &mdash;\
-             🧑🏻‍🔬👩🏻‍🔬")
+    st.markdown('''trical adalah singkatan dari titrimetri calculation yang dimana berisi website perhitungan tentang Normalitas, %(b/b), dan %(b/v) yang dibuat untuk membantu dan mempersingkat waktu dalam menghitung pada bidang titrimetri" 
+                "yang dimana kami berharap website yang kami buat dapat berguna bagi pemakai. Web ini juga memudahkan anda dalam perhitungan pada mata kuliah Analisis Titrimetri Lhoooo &mdash;\
+                 🧑🏻‍🔬👩🏻‍🔬
+                 ''')
 
 #Pengertian
 if add_selectbox=="Pengertian":
