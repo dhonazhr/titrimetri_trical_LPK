@@ -11,8 +11,10 @@ if add_selectbox == "Beranda":
     st.header('''
     :violet[Selamat Datang di Web trical 😊]''', divider="rainbow")
     st.image("logo1.png")
-    st.markdown('''trical adalah singkatan dari titrimetri calculation yang dimana berisi website perhitungan tentang Normalitas, %(b/b), dan %(b/v) yang dibuat untuk membantu dan mempersingkat waktu dalam menghitung pada bidang titrimetri 
-                yang dimana kami berharap website yang kami buat dapat berguna bagi pemakai. Web ini juga memudahkan anda dalam perhitungan pada mata kuliah Analisis Titrimetri Lhoooo &mdash;\
+    st.markdown('''trical adalah singkatan dari titrimetri calculation yang dimana berisi website perhitungan 
+                tentang Normalitas, %(b/b), dan %(b/v) yang dibuat untuk membantu dan mempersingkat waktu dalam menghitung pada bidang titrimetri 
+                yang dimana kami berharap website yang kami buat dapat berguna bagi pemakai. 
+                Web ini juga memudahkan anda dalam perhitungan pada mata kuliah Analisis Titrimetri Lhoooo &mdash;\
                  🧑🏻‍🔬👩🏻‍🔬
                  ''')
 
@@ -24,16 +26,18 @@ if add_selectbox=="Pengertian":
     #Pengertian Titrimetri
     st.subheader('''
     :violet[Analisis Titrimetri (Volumetri)]''')
-    st.write("Analisis titrimetri (volumetri) adalah analisis berdasarkan pengukuran volume larutan yang diketahui konsentrasinya, untuk menentukan zat/larutan lain yang belum diketahui konsentrasinya.")
+    st.write('''Analisis titrimetri (volumetri) adalah analisis berdasarkan pengukuran volume larutan yang diketahui 
+                konsentrasinya, untuk menentukan zat/larutan lain yang belum diketahui konsentrasinya.''')
     st.image("titrasi.png")
 
     #Pengertian Normalitas
     st.subheader('''
     :violet[Normalitas]''')
-    st.write("Normalitas dapat diartikan sebagai jumlah mol ekuivalen dari suatu zat per liter larutan.",
-             "Normalitas adalah ukuran yang menunjukkan konsentrasi pada berat setara dalam gram per liter larutan.", 
-             "Berat ekivalen itu sendiri adalah ukuran kapasitas reaktif molekul yang dilarutkan dalam larutan.", 
-             "Normalitas dapat disingkat dengan huruf “N”, yang merupakan salah satu opsi paling efektif dan berguna dalam proses laboratorium.")
+    st.write('''Normalitas dapat diartikan sebagai jumlah mol ekuivalen dari suatu zat per liter larutan.
+             Normalitas adalah ukuran yang menunjukkan konsentrasi pada berat setara dalam gram per liter larutan. 
+             Berat ekivalen itu sendiri adalah ukuran kapasitas reaktif molekul yang dilarutkan dalam larutan.
+             Normalitas dapat disingkat dengan huruf “N”, yang merupakan salah satu opsi paling efektif dan berguna 
+             dalam proses laboratorium.''')
     st.image("rumus normalitas.png")
     st.markdown('''
                 Penjelasan :
@@ -72,9 +76,11 @@ if add_selectbox=="Pengertian":
     #Pengertian BE
     st.subheader('''
     :violet[Bobot Ekuivalen]''')
-    st.write("BE (Bobot Ekuivalen) adalah bobot dalam gram (dari) suatu zat yang diperlukan untuk memberikan atau bereaksi",
-             "Bobot Ekuivalen (BE) sering digunakan pada perhitungan Normlitas (N), %(b/b), dan %(b/v)",
-             "Bobot Ekuivalen (BE) bisa didapatkan dengan menghitung Mr suatu senyawa yang dicari, maka dari itu kami menyediakan tabel periodik untuk memudahkan pengguna dalam menghitung.")
+    st.write('''BE (Bobot Ekuivalen) adalah bobot dalam gram (dari) suatu zat yang diperlukan untuk memberikan atau bereaksi,
+             Bobot Ekuivalen (BE) sering digunakan pada perhitungan Normlitas (N), %(b/b), dan %(b/v),
+             Bobot Ekuivalen (BE) bisa didapatkan dengan menghitung Mr suatu senyawa yang dicari, maka dari itu 
+             kami menyediakan tabel periodik untuk memudahkan pengguna dalam menghitung.
+             ''')
     st.image("rumus be.png")
     st.markdown('''
                 Penjelasan :
@@ -175,7 +181,9 @@ if add_selectbox=="Tentang Sistem":
     st.write('''
     :violet[Nama Sistem :] trical''')
     st.write('''
-    :violet[Penjelasan Sistem :] Web ini dibuat untuk menghitung Normalitas (N), %(b/b), %(b/v), dan BE suatu larutan pada bidang titrimetri''')
+    :violet[Penjelasan Sistem :] Web ini dibuat untuk menghitung Normalitas (N), %(b/b), %(b/v), 
+             dan BE suatu larutan pada bidang titrimetri
+             ''')
     st.markdown('''
                 :violet[Sumber :] 
                 1. Herawati dan A. Maimulyanti. 2023. PENUNTUN PRAKTIK ANALISIS TITRIMETRI. Bogor : Politeknik AKA Bogor.
