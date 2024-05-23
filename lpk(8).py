@@ -1,6 +1,12 @@
 import streamlit as st
 from PIL import Image
 
+primaryColor="#653f7f"
+backgroundColor="#fbf4e6"
+secondaryBackgroundColor="#efd9fb"
+textColor="#653f7f"
+font="serif"
+
 #Tampilan halaman web
 st.sidebar.image("logo1.png", use_column_width=True)
 st.sidebar.title("Menu")
