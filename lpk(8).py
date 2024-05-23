@@ -127,7 +127,7 @@ elif add_selectbox == "Kalkulator":
         
         if tombol1:
             nilai_kadar = (Vsampel*Ntitran2*Bobotekuivalen*10**-3*FaktorP*100)/gram 
-            st.success(f'Persentase kadarnya adalah {nilai_kadar:.2f}%(b/v)')
+            st.success(f'Persentase kadarnya adalah {nilai_kadar:.2f}%(b/b)')
             st.snow()
 
 #Kalkulator %(b/v)
