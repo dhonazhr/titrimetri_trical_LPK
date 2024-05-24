@@ -177,7 +177,7 @@ if add_selectbox=="Tentang Sistem":
                 5. Muhamad Abieb Syah (2360176)
                 ''')
     st.write('''
-    :violet[Nama Projek :] Perhitungan Normalitas (N), %(b/b), dan %(b/v)''')
+    :violet[Nama Projek :] Perhitungan Normalitas (N), %(b/b), %(b/v), dan Bobot Ekuivalen (BE)''')
     st.write('''
     :violet[Nama Sistem :] trical''')
     st.write('''
